@@ -1,0 +1,8 @@
+1' install fastdfs v2.09
+2' install ImageMagick 6.6.8-6
+3. chmod +x configure & ./configure --prefix=/home/lighttpd --libdir=/home/lighttpd/lib
+4. make & make install
+5. cd /home/lighttpd
+6. mkdir log www conf
+7. configure conf file 
+	see lighttpd.conf.example
